@@ -1,0 +1,13 @@
+#Articles{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Adjust spacing */
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.card {
+    /* Subtract gap offset so exactly 3 items fit per line */
+    width: calc(33.333% - (32px / 3)); 
+    box-sizing: border-box;
+}
